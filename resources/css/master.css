@@ -117,8 +117,28 @@ flex-grow: 1;
   height: 200px;
 }
 
-/*section three*/
+/*section 3*/
 
+#section3 {
+
+ background-image: url(../../resources/media/photos/img-locations-background.jpg);
+ width: 1200px;
+ height: 700px;
+
+}
+.boxes {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.details {
+  background-color: black;
+  opacity: 1;
+  margin: 40px;
+  width: 300px
+}
 
 /*footer*/
 footer {
