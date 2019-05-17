@@ -120,11 +120,13 @@ flex-grow: 1;
 /*section 3*/
 
 #section3 {
-
  background-image: url(../../resources/media/photos/img-locations-background.jpg);
  width: 1200px;
  height: 700px;
+}
 
+.location {
+  margin-bottom: 0;
 }
 .boxes {
 display: flex;
@@ -137,24 +139,32 @@ justify-content: center;
   background-color: black;
   opacity: 1;
   margin: 40px;
-  width: 300px
+  width: 300px;
+  margin-top: 15px;
 }
+
+
 
 /*footer*/
 footer {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact {
+  display: flex;
   align-items: center;
   align-content: center;
-    width: 100%;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 78px;
-    margin-left: auto;
-    padding-top: 116px;
-    flex-direction: column;
+  width: 100%;
+  height: 200px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  flex-direction: column;
 }
 
-.copyright {
+#copywrite {
   display: flex;
-  justify-content: flex-start;
+  text-align: left;
+  margin-left: 20px;
 }
