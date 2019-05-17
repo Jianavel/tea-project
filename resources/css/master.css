@@ -43,17 +43,18 @@ a {
 
 body {
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
   align-content: center;
   align-items: center;
-  font-family: helvetica cursive;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  flex-direction: column;
-  background-image: url(../..resources/media/photos/img-tea-cozy-logo.png);
+
 }
 
 .maincontent {
@@ -69,6 +70,57 @@ body {
       flex-direction: column;
 }
 
+#mission {
+  display: flex;
+  background: url(../../resources/media/photos/img-mission-background.jpg);
+  height: 700px;
+}
+
+.teamix {
+  width: 1200px;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 160px;
+}
+
+div {
+  display: block;
+}
+
+/*section 2*/
+
+#section2 {
+height: 800px;
+width: 1000px;
+
+}
+
+.images {
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: row;
+flex-wrap: wrap;
+
+flex-grow: 1;
+
+
+}
+.image img {
+  margin: 10px;
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+/*section three*/
+
+
+/*footer*/
 footer {
   display: flex;
   align-items: center;
